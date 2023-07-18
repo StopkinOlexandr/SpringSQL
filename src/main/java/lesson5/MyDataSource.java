@@ -12,9 +12,9 @@ public class MyDataSource {
       // настройка соединения с базой данных
       PGSimpleDataSource pgDataSource = new PGSimpleDataSource();
       pgDataSource.setServerName("localhost");
-      pgDataSource.setDatabaseName("ait_tr");
+      pgDataSource.setDatabaseName("testDB");
       pgDataSource.setUser("postgres");
-      pgDataSource.setPassword("root");
+      pgDataSource.setPassword("1111");
       dataSource = pgDataSource;
     }
     return dataSource;
